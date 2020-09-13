@@ -17,7 +17,7 @@
     <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-      <img src="/img/Silverlogotext-removebg.png" width="150" height="100" alt="">
+      <img src="/img/Silverlogotext-removebg.png" width="120" height="80" alt="">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,7 +67,7 @@
     </div>
 
     <!-- about us -->
-    <div id="about">
+    <div id="about" style="padding-top: 20px;">
     </div>
     <div class="aboutUs" >
         <div class="container">
@@ -88,7 +88,7 @@
     </div>
 
     <!-- product -->
-    <div id="product">
+    <div id="product" style="padding-top: 20px;">
     </div>
     <div class="product" >
       <div class="container">
@@ -201,7 +201,7 @@
     </div>
 
     <!-- feature -->
-    <div id='feature'>
+    <div id='feature' style="padding-top: 20px;">
     </div>
     <div class="feature" >
       <div class="container">
@@ -238,20 +238,19 @@
     </div>
 
     <!-- contact us -->
-    
-    <div class="contactUs" id='contactUs'>
+    <div id='contactUs'></div>
+
+    <div class="contactUs" >
       <div class="container">
         <div class="contactDiv">
           <div class="container-contact100">
 
             <div class="wrap-contact100">
-              <form class="contact100-form validate-form" action="mail_handler.php" method="post" name="form">
+              <form class="contact100-form validate-form" action="http://localhost:5000/sendMail" method="post" name="form">
                 <h1 class="contact100-form-title">
                   Contact Us
                 </h1>  
                   
-                
-              
                 <div class="wrap-input100 validate-input" data-validate="Please enter your name">
                   <input class="input100" type="text" name="name" placeholder="Full Name">
                   <span class="focus-input100"></span>
@@ -273,7 +272,7 @@
                 </div>
         
                 <div class="container-contact100-form-btn">
-                  <button class="contact100-form-btn" name="submit" type="submit">
+                  <button class="contact100-form-btn" name="submit" type="submit" >
                     <span>
                       <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
                       Send
@@ -305,7 +304,9 @@
                 <div class="col-md-4 col-lg-4 col-sm-4 mr-auto my-md-4 my-0 mt-4 mb-1">
         
                   <!-- Content -->
-                  <img src="/img/Silverlogotext-removebg.png" width="150" height="100" alt="">
+                  <div>
+                    <img src="/img/Silverlogotext-removebg.png" width="120" height="80"  alt="">
+                  </div>
                   
                   <p> We offer different and easy options of payment keeping in mind the convenience of our valued customers. </p><p>The customer-focused approach has enabled us in establishing a broad client base across the market.</p> <p>By using upgraded tools and rigorous methods, the unmatched quality of the offered product is never compromised.</p>
         
@@ -411,4 +412,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+
+
 </html>
